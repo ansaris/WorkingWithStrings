@@ -14,7 +14,7 @@ namespace WorkingWithStrings
             //string myString = "What if I need\n a new line?";
             //string myString = "Go to your C:\\ drive.";
             //string myString = @"Go to your C:\ drive";
-
+            
             //string myString = string.Format("{0} = {0} - {1}", "first", "second");
             //string myString = string.Format("Currency: {0:C}", 123.45);
             //string myString = string.Format("Number: {0:N}", 1234567890);
