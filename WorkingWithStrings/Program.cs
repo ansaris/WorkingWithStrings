@@ -21,7 +21,7 @@ namespace WorkingWithStrings
             //string myString = string.Format("Percentage: {0:P}", .123);
             //string myString = 
             //    string.Format("Phone: {0:(###) ###-####}", 773588292700);
-
+            //
             string myString = "  That summer we took threes across the board  ";
 
             myString = myString.Substring(2);
