@@ -14,7 +14,7 @@ namespace WorkingWithStrings
             //string myString = "What if I need\n a new line?";
             //string myString = "Go to your C:\\ drive.";
             //string myString = @"Go to your C:\ drive";
-            
+
             //string myString = string.Format("{0} = {0} - {1}", "first", "second");
             //string myString = string.Format("Currency: {0:C}", 123.45);
             //string myString = string.Format("Number: {0:N}", 1234567890);
@@ -22,10 +22,30 @@ namespace WorkingWithStrings
             //string myString = 
             //    string.Format("Phone: {0:(###) ###-####}", 773588292700);
             //
-            string myString = "  That summer we took threes across the board  ";
+            // string myString = " That summer we took threes across the board  ";
 
-            myString = myString.Substring(2);
+            //myString = myString.Substring(6, 14);
+            //myString = myString.ToUpper();
+            //myString = myString.Replace(" ", "--");
+            //myString = myString.Remove(6, 14);
+            //myString = String.Format("Length before: {0} -- Length after: {1}",
+            //    myString.Length, myString.Trim().Length);
+            //string myString = "";
+            /*
+            for (int i = 0; i < 100; i++)
+            {
+                myString += "--" + i.ToString();
+            }
+            */
 
+            StringBuilder myString = new StringBuilder();
+
+            for (int i = 0; i < 100; i++)
+            {
+                myString.Append("--");
+                myString.Append(i);
+            }
+            // Search for Standard numeric string formats on bing or google to see MSDN page
             Console.WriteLine(myString);
             Console.ReadLine();
         }
